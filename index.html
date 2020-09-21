@@ -9,7 +9,7 @@
 <body>
   <!-- Navigation start -->
   <nav>
-    <div class="brandNameBox"><p class="brandName">Gourmet au Catering</p></div>
+    <div class="brandNameBox"><p class="brandName"><a href="#">Gourmet au Catering</a></p></div>
     <ul class="navLinks">
       <li><a href="#">About</a></li>
       <li><a href="#">Menu</a></li>
@@ -19,9 +19,9 @@
   <!-- Navigation ends -->
   <div class="widthReductionBox"> <!-- Top level container to adjust overall body width -->
     <!-- Header starts -->
-    <header>
+    <section class="banner">
       <h1>Le Catering</h1>
-    </header>
+    </section>
     <!-- Header ends -->
 
     <!-- About section starts -->
@@ -32,16 +32,16 @@
       <div class="aboutTextBox">
         <h2 class="centeredh2">About Catering</h2>
         <p class="aboutSubheading">Tradition since 1889</p>
-        <p class="aboutPara">
+        <article class="aboutPara">
           orem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh ipsum, scelerisque scelerisque massa a, pellentesque
           porttitor velit. Proin eu scelerisque quam. Aliquam iaculis condimentum sapien sodales viverra. Pellentesque habitant
           morbi tristique senectus et netus et.
-        </p>
-        <p class="aboutPara fadedPara">
+        </article>
+        <article class="aboutPara fadedPara">
           orem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh ipsum, scelerisque scelerisque massa a, pellentesque
           porttitor velit. Proin eu scelerisque quam. Aliquam iaculis condimentum sapien sodales viverra. Pellentesque habitant
           morbi tristique senectus et netus et malesuada..
-        </p>
+        </article>
       </div>
     </section>
     <!-- About section ends -->
@@ -77,13 +77,15 @@
         Catering Service, 42nd Living Street, 43043 New York, NY
       </p>
       <p class="contactText">
-        You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here.
+        You can also contact us by phone <span>00553123-2323</span>  or email <span>catering@catering.com</span>, or you can send us a message here.
       </p>
-      <input type="text" placeholder="Name">
-      <input type="text" placeholder="How many people">
-      <input type="date" name="date" id="date">
-      <input type="text" placeholder="Message / Special requirements">
-      <button type="submit">SEND MESSAGE</button>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="How many people">
+        <input type="date" name="date" id="date">
+        <input type="text" placeholder="Message / Special requirements">
+        <button type="submit">SEND MESSAGE</button>
+      </form>
     </section>
     <!-- Contact section ends here -->
   </div>
