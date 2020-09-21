@@ -45,13 +45,6 @@ section{
   border-bottom: 1px solid rgb(238,238,238);
 }
 
-section:last-child{
-  margin-bottom: 30px;
-  border: none;
-}
-
-section:first-child{ width: 100%; }
-
 a{ text-decoration: none; }
 
 article{ line-height: 20px; }
@@ -96,6 +89,7 @@ nav{
 /* -------------------------------- */
 
 .banner{
+  width: 100%;
   position: relative;
   height: 90vh;
   background:url("images/image1.jpg") center;
@@ -171,6 +165,10 @@ nav{
 /* CONTACT */
 /* -------------------------------- */
 
+.contact{
+  margin-bottom: 30px;
+  border: none;
+}
 input,
 textarea{ 
   margin: 15px 0;
