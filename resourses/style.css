@@ -36,10 +36,10 @@ h2{
   letter-spacing: 5px;
   padding: 20px 0;
 }
-.centeredh2{ text-align: center; }
+.centeredHead{ text-align: center; }
 
 section{
-  padding: 25px 0;
+  padding: 35px 0;
   width: 70%;
   margin: 0 auto;
   border-bottom: 1px solid rgb(238,238,238);
@@ -98,9 +98,8 @@ nav{
 .banner{
   position: relative;
   height: 90vh;
-  background-image: url("images/image1.jpg");
+  background:url("images/image1.jpg") center;
   background-size: cover;
-  background-position: center;
 }
 
 .banner h1{
@@ -202,6 +201,8 @@ button{
   cursor: pointer;
   outline: none;
 }
+
+.contactText a{ color: #000000;}
 
 
 /* -------------------------------- */
