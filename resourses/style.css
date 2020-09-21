@@ -1,0 +1,219 @@
+/* -------------------------------- */
+/* BASIC STYLING */
+/* -------------------------------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Times New Roman', Georgia, Times, serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+}
+
+
+/* -------------------------------- */
+/* REUSED */
+/* -------------------------------- */
+
+
+
+.widthReductionBox{
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1{
+  letter-spacing: 5px;
+  color: rgb(89, 90, 93);
+}
+h2{
+  letter-spacing: 5px;
+  padding: 20px 0;
+}
+.centeredHead{ text-align: center; }
+
+section{
+  padding: 35px 0;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(238,238,238);
+}
+
+a{ text-decoration: none; }
+
+article{ line-height: 20px; }
+
+
+/* -------------------------------- */
+/* NAVIGATION */
+/* -------------------------------- */
+
+nav{
+  background-color: #fff;
+  height: 50px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+.brandNameBox{
+  float: left;
+  padding: 15px;
+  margin-left: 20px;
+  letter-spacing: 5px;
+  color: #000;
+}
+
+.navLinks{
+  float: right;
+  list-style: none;
+  padding-top: 7px;
+  margin-right: 20px;
+}
+
+.navLinks li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.navLinks a{
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 5px;
+}
+
+/* -------------------------------- */
+/* HEADER */
+/* -------------------------------- */
+
+.banner{
+  width: 100%;
+  position: relative;
+  height: 90vh;
+  background:url("images/image1.jpg") center;
+  background-size: cover;
+}
+
+.banner h1{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+
+/* -------------------------------- */
+/* ABOUT */
+/* -------------------------------- */
+
+.about{ display: flex; }
+
+.aboutImageBox{ padding: 20px; }
+.aboutImageBox img{
+  width: 330px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.aboutTextBox{ padding: 20px; }
+
+.aboutTextBox p{ 
+  font-size: 90%;
+  line-height: 20px;
+}
+
+.aboutSubheading{ 
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 5px;
+}
+
+.aboutPara{ padding: 10px 0; }
+.fadedPara{ opacity: 0.5;}
+
+/* -------------------------------- */
+/* MENU */
+/* -------------------------------- */
+
+.ourMenu{ display: flex; }
+
+.ourMenu h2{ margin-bottom: 10px; }
+
+.menuImageBox{ 
+  padding: 20px;
+  margin-left: 10px;
+}
+.menuImageBox img{
+  width: 330px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.menuSubheading{
+  letter-spacing: 4px;
+  padding: 10px 0;
+}
+
+.menuText{
+  font-size: 80%;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+/* -------------------------------- */
+/* CONTACT */
+/* -------------------------------- */
+
+.contact{
+  margin-bottom: 30px;
+  border: none;
+}
+input,
+textarea{ 
+  margin: 15px 0;
+  padding: 15px 10px;
+  display: block;
+  width: 100%;
+  
+  border-style: hidden;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  outline: none;
+}
+
+.contactText{
+  font-size: 80%;
+  padding: 8px 0;
+  line-height: 20px;
+}
+.buetext{ 
+  font-size: 100%;
+  font-weight: 600;
+  color: rgb(96,125,143);
+}
+
+button{
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.contactText a{ color: #000000;}
+
+
+/* -------------------------------- */
+/* FOOTER */
+/* -------------------------------- */
+footer{
+  background: rgb(241,241,241);
+  width: 100%;
+}
+
+.footerText{
+  font-size: 80%;
+  padding: 40px;
+  text-align: center;
+}
+
