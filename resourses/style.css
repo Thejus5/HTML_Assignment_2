@@ -32,7 +32,6 @@ h1{
   color: rgb(89, 90, 93);
 }
 h2{
-  /* text-align: center; */
   letter-spacing: 5px;
   padding: 20px 0;
 }
@@ -63,9 +62,9 @@ nav{
   float: left;
   padding: 15px;
   margin-left: 20px;
+  letter-spacing: 5px;
 }
 
-.brandName{ letter-spacing: 5px; }
 .navLinks{
   float: right;
   list-style: none;
